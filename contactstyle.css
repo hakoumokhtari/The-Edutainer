@@ -1,0 +1,255 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: rgb(126, 108, 108);
+    font-family: tahoma, cursive;
+}
+
+.container {
+    width: 1170px;
+    margin: auto;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* ..................................start header............................................. */
+
+.header .navbar {
+    vertical-align: baseline;
+    background-color: #BC8F8F;
+    color: rgb(72, 70, 92);
+    height: 280px;
+    margin-bottom: 90px;
+    text-align: center;
+}
+
+.header.navbar h2 {
+    float: left;
+}
+
+.header.navbar ul {
+    list-style: none;
+    padding-left: 0;
+    overflow: hidden;
+    float: left;
+}
+
+.navbar ul li {
+    display: inline-block;
+    letter-spacing: 10px;
+    word-spacing: 10px;
+    font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.navbar ul li :after {
+    content: "|";
+    line-height: 1.8;
+}
+
+.navbar ul li:last-child:after {
+    content: ""
+}
+
+.bannerright {
+    position: absolute;
+    right: -152px;
+    top: -60px;
+    float: right;
+    height: 152px;
+    font: 700 47px Arial;
+    text-align: right;
+    padding: 5px 50px 0 0;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+.bannerleft {
+    position: absolute;
+    top: -38px;
+    left: -73px;
+    width: 350px;
+    outline: 0!important;
+    border: none;
+    vertical-align: baseline;
+    background: transparent
+}
+
+
+/* ...................................end header....................................................... */
+
+
+/* .............................start contact link................................*/
+
+fieldset {
+    width: 500;
+    padding: 5px;
+    background: #FFF;
+    width: 100%;
+    border: 1px solid #CCC;
+    height: 100;
+}
+
+legend {
+    width: 500;
+    padding: 5px;
+    background: rgb(198, 174, 230);
+    border: 1px solid rgb(169, 105, 252);
+    padding: 5px;
+}
+
+label,
+input,
+select {
+    display: block
+}
+
+label {
+    float: left;
+    margin-bottom: 10px;
+    margin: 10px;
+}
+
+input {
+    margin-bottom: 10px;
+    padding: 8px;
+    width: 300px
+}
+
+.contact-form-btn {
+    margin: 20px;
+}
+
+.main p {
+    text-align: center;
+}
+
+main p span {
+    font-weight: bold;
+}
+
+main p span {
+    font-weight: bold;
+}
+
+a:hover {
+    color: red;
+    font-weight: bold;
+    text-decoration: line-through;
+}
+
+a:active {
+    color: black;
+    font-weight: normal;
+    text-decoration: none;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+.error {
+    background: #F2DEDE;
+    color: #A94442;
+    padding: 10px;
+    width: 95%;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    margin: 20 px auto;
+}
+
+
+/* .............................end contact link................................*/
+
+
+/* ....................................................start footer..........................*/
+
+.footer {
+    background: #2a302e;
+    background-size: 100;
+    display: block;
+    font-size: 18px;
+    color: rgb(209, 63, 88);
+    font-family: 'All Modern Hand - KestrelMontes';
+    position: relative;
+    margin: 0px;
+}
+
+.connect.h5 {
+    float: left;
+    display: block;
+}
+
+.menu-item a {
+    margin-top: 50px;
+    color: rgb(173, 140, 146);
+}
+
+.social {
+    margin: auto;
+    background-repeat: no-repeat;
+    width: 33px;
+    height: 35px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.social {
+    display: flex;
+    margin: 20px;
+}
+
+.soc-icons.a {
+    flex: 25%;
+    padding: 5px;
+    display: inline-block;
+    vertical-align: middle;
+    width: 33px;
+    height: 35px;
+    background-position: 0px 3px;
+    background-size: 169px;
+    margin: 0px 3px;
+    padding-left: -100px;
+}
+
+.menu-item {
+    margin-top: 50px;
+    color: black;
+    background: #2a302e;
+}
+
+.menu-item.p {
+    margin: 50px;
+}
+
+.donate {
+    border: 2px solid #575757;
+    padding: 18px 35px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 20px;
+    display: block;
+    width: 370px;
+    font-size: 28px;
+    color: #575757;
+    background-color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-family: 'Helvetica';
+    font-weight: bold;
+}
+
+.downoald,
+.applogo,
+.logo,
+.p {
+    margin: 20px;
+}
+
+
+/* ........................................end footer.....................................*/
